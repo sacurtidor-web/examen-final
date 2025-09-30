@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.cuadro {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: gray;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+    padding: 10px;
+}
+header {
+    width: 500px;
+    height: 30px;
+    margin: auto;
+    background-color: gray;
+    padding: 10px;
+}
